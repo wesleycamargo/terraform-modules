@@ -8,3 +8,6 @@ variable "location" {
 variable "servicePlanName" {
     type = string
 }
+variable "appServiceName" {
+    type = string
+}
