@@ -13,5 +13,6 @@ variable "appServiceName" {
 }
 
 variable "removeDaily" {	  
+  type = string
   default = "false"
 }

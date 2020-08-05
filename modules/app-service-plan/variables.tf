@@ -10,5 +10,6 @@ variable "servicePlanName" {
 }
 
 variable "removeDaily" {	  
+  type = string
   default = "false"
 }
