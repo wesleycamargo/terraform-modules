@@ -8,3 +8,7 @@ variable "location" {
 variable "servicePlanName" {
     type = string
 }
+
+variable "removeDaily" {	  
+  default = "false"
+}

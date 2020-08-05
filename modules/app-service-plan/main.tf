@@ -11,8 +11,8 @@ resource "azurerm_app_service_plan" "servicePlan" {
     capacity = "1"
   }
 
-  tags = {
-	  environment = "Terraform Test RG"
+  tags = {	  
+    removeDaily = var.removeDaily 
 	}
 }
 

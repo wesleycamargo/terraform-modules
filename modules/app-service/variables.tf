@@ -13,5 +13,5 @@ variable "appServiceName" {
 }
 
 variable "removeDaily" {	  
-  default = "true"
+  default = "false"
 }
