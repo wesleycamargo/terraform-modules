@@ -11,3 +11,7 @@ variable "servicePlanName" {
 variable "appServiceName" {
     type = string
 }
+
+variable "removeDaily" {	  
+  default = "true"
+}

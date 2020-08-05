@@ -27,4 +27,8 @@ resource "azurerm_app_service" "appservice" {
       "hostingstart.html",
     ]
   }
+
+  tags = {	  
+    removeDaily = var.removeDaily 
+	}
 }
